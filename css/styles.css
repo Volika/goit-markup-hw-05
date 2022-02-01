@@ -477,6 +477,10 @@ a {
   background: rgba(255, 255, 255, 0.1);
   align-items: center;
   justify-content: center;
+
+  transition-property: background-color, color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-icon-link:hover,
 .footer-icon-link:focus {
@@ -515,7 +519,7 @@ a {
 
   transition-property: background-color, color, box-shadow;
   transition-duration: 250ms;
-  transition-timing-function: linear;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-btn:hover,
 .portfolio-btn:focus {
