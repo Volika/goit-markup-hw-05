@@ -115,6 +115,8 @@ a {
 /* --- header-list --------------- */
 .header-list {
   margin-left: 93px;
+  /* margin-top: 32px; */
+  /* height: 48px; */
 }
 .header-list,
 .header-connect {
@@ -140,6 +142,18 @@ a {
 }
 .header-link.current {
   color: var(--accent-color);
+}
+.header-item-relativ {
+  position: relative;
+}
+.header-item-box {
+  width: 100%;
+  height: 4px;
+  flex-shrink: 0;
+  background: #2196f3;
+  border-radius: 2px;
+  position: absolute;
+  top: 44px;
 }
 .header-connect-link {
   display: flex;
